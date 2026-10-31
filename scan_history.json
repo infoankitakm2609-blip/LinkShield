@@ -1,0 +1,1054 @@
+[
+  {
+    "url": "https://www.google.com",
+    "risk_score": 5,
+    "classification": "Low Risk",
+    "ml_prediction": "Legitimate",
+    "ml_confidence": 4.96,
+    "features": {
+      "url_length": 22,
+      "domain_length": 14,
+      "path_length": 0,
+      "num_dots": 2,
+      "num_hyphens": 0,
+      "num_subdomains": 1,
+      "num_slash": 2,
+      "num_question": 0,
+      "num_equal": 0,
+      "num_at": 0,
+      "num_percent": 0,
+      "num_ampersand": 0,
+      "num_underscore": 0,
+      "num_digits": 0,
+      "digit_ratio": 0.0,
+      "url_entropy": 3.6635,
+      "domain_entropy": 2.8424,
+      "has_https": 1,
+      "https_in_domain": 0,
+      "is_ip": 0,
+      "is_shortened": 0,
+      "suspicious_keyword_count": 0,
+      "suspicious_in_domain": 0,
+      "special_char_ratio": 0.2273
+    },
+    "vt_stats": {
+      "available": false,
+      "status": "API key not configured",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 0,
+      "total": 0,
+      "permalink": ""
+    },
+    "gsb_status": {
+      "available": false,
+      "status": "API key not configured",
+      "is_threat": false,
+      "threat_types": []
+    },
+    "phishtank_status": {
+      "available": true,
+      "status": "Not listed as active phish",
+      "is_phish": false,
+      "verified": true,
+      "phish_id": 1983370
+    },
+    "ssl_info": {
+      "domain": "google.com",
+      "hostname": "www.google.com",
+      "ssl_valid": true,
+      "ssl_issuer": "Google Trust Services",
+      "ssl_expiry": "2026-12-30",
+      "ssl_days_left": 60,
+      "ssl_error": null
+    },
+    "risk_factors": [
+      "No overt signatures or blacklist entries detected; standard internet caution recommended."
+    ],
+    "positive_indicators": [
+      "Uses HTTPS protocol for encrypted communication.",
+      "AI/ML model found structural features typical of legitimate sites (95.0% confidence).",
+      "Valid SSL certificate issued by Google Trust Services."
+    ],
+    "api_notices": [
+      "VirusTotal feed unavailable (API key not configured).",
+      "Google Safe Browsing feed unavailable (API key not configured)."
+    ],
+    "available_apis_count": 1,
+    "timestamp": "2026-10-31 08:08:18",
+    "id": "SCAN-1793414298233"
+  },
+  {
+    "url": "https://www.google.com",
+    "risk_score": 5,
+    "classification": "Low Risk",
+    "ml_prediction": "Legitimate",
+    "ml_confidence": 4.96,
+    "features": {
+      "url_length": 22,
+      "domain_length": 14,
+      "path_length": 0,
+      "num_dots": 2,
+      "num_hyphens": 0,
+      "num_subdomains": 1,
+      "num_slash": 2,
+      "num_question": 0,
+      "num_equal": 0,
+      "num_at": 0,
+      "num_percent": 0,
+      "num_ampersand": 0,
+      "num_underscore": 0,
+      "num_digits": 0,
+      "digit_ratio": 0.0,
+      "url_entropy": 3.6635,
+      "domain_entropy": 2.8424,
+      "has_https": 1,
+      "https_in_domain": 0,
+      "is_ip": 0,
+      "is_shortened": 0,
+      "suspicious_keyword_count": 0,
+      "suspicious_in_domain": 0,
+      "special_char_ratio": 0.2273
+    },
+    "vt_stats": {
+      "available": false,
+      "status": "API key not configured",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 0,
+      "total": 0,
+      "permalink": ""
+    },
+    "gsb_status": {
+      "available": false,
+      "status": "API key not configured",
+      "is_threat": false,
+      "threat_types": []
+    },
+    "phishtank_status": {
+      "available": true,
+      "status": "Not listed as active phish",
+      "is_phish": false,
+      "verified": true,
+      "phish_id": 1983370
+    },
+    "ssl_info": {
+      "domain": "google.com",
+      "hostname": "www.google.com",
+      "ssl_valid": true,
+      "ssl_issuer": "Google Trust Services",
+      "ssl_expiry": "2026-12-30",
+      "ssl_days_left": 60,
+      "ssl_error": null
+    },
+    "risk_factors": [
+      "No overt signatures or blacklist entries detected; standard internet caution recommended."
+    ],
+    "positive_indicators": [
+      "Uses HTTPS protocol for encrypted communication.",
+      "AI/ML model found structural features typical of legitimate sites (95.0% confidence).",
+      "Valid SSL certificate issued by Google Trust Services."
+    ],
+    "api_notices": [
+      "VirusTotal feed unavailable (API key not configured).",
+      "Google Safe Browsing feed unavailable (API key not configured)."
+    ],
+    "available_apis_count": 1,
+    "timestamp": "2026-10-31 07:52:42",
+    "id": "SCAN-1793413362620"
+  },
+  {
+    "url": "https://google.com",
+    "risk_score": 29,
+    "classification": "Moderate Risk",
+    "ml_prediction": "Phishing / Malicious",
+    "ml_confidence": 64.61,
+    "features": {
+      "url_length": 18,
+      "domain_length": 10,
+      "path_length": 0,
+      "num_dots": 1,
+      "num_hyphens": 0,
+      "num_subdomains": 0,
+      "num_slash": 2,
+      "num_question": 0,
+      "num_equal": 0,
+      "num_at": 0,
+      "num_percent": 0,
+      "num_ampersand": 0,
+      "num_underscore": 0,
+      "num_digits": 0,
+      "digit_ratio": 0.0,
+      "url_entropy": 3.5724,
+      "domain_entropy": 2.6464,
+      "has_https": 1,
+      "https_in_domain": 0,
+      "is_ip": 0,
+      "is_shortened": 0,
+      "suspicious_keyword_count": 0,
+      "suspicious_in_domain": 0,
+      "special_char_ratio": 0.2222
+    },
+    "vt_stats": {
+      "available": false,
+      "status": "API key not configured",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 0,
+      "total": 0,
+      "permalink": ""
+    },
+    "gsb_status": {
+      "available": false,
+      "status": "API key not configured",
+      "is_threat": false,
+      "threat_types": []
+    },
+    "phishtank_status": {
+      "available": true,
+      "status": "Not listed as active phish",
+      "is_phish": false,
+      "verified": true,
+      "phish_id": 4973511
+    },
+    "ssl_info": {
+      "domain": "google.com",
+      "hostname": "google.com",
+      "ssl_valid": true,
+      "ssl_issuer": "Google Trust Services",
+      "ssl_expiry": "2026-12-30",
+      "ssl_days_left": 60,
+      "ssl_error": null
+    },
+    "risk_factors": [
+      "No overt signatures or blacklist entries detected, but general internet vigilance is advised."
+    ],
+    "positive_indicators": [
+      "Uses HTTPS protocol for encrypted communication.",
+      "Valid SSL certificate issued by Google Trust Services."
+    ],
+    "timestamp": "2026-10-31 07:16:30",
+    "id": "SCAN-1793411190289"
+  },
+  {
+    "url": "https://www.microsoft.com",
+    "risk_score": 5,
+    "classification": "Low Risk",
+    "ml_prediction": "Legitimate",
+    "ml_confidence": 5.27,
+    "features": {
+      "url_length": 25,
+      "domain_length": 17,
+      "path_length": 0,
+      "num_dots": 2,
+      "num_hyphens": 0,
+      "num_subdomains": 1,
+      "num_slash": 2,
+      "num_question": 0,
+      "num_equal": 0,
+      "num_at": 0,
+      "num_percent": 0,
+      "num_ampersand": 0,
+      "num_underscore": 0,
+      "num_digits": 0,
+      "digit_ratio": 0.0,
+      "url_entropy": 3.6733,
+      "domain_entropy": 3.1751,
+      "has_https": 1,
+      "https_in_domain": 0,
+      "is_ip": 0,
+      "is_shortened": 0,
+      "suspicious_keyword_count": 0,
+      "suspicious_in_domain": 0,
+      "special_char_ratio": 0.2
+    },
+    "vt_stats": {
+      "available": false,
+      "status": "API key not configured",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 0,
+      "total": 0,
+      "permalink": ""
+    },
+    "gsb_status": {
+      "available": false,
+      "status": "API key not configured",
+      "is_threat": false,
+      "threat_types": []
+    },
+    "phishtank_status": {
+      "available": true,
+      "status": "Not listed as active phish",
+      "is_phish": false,
+      "verified": false,
+      "phish_id": null
+    },
+    "ssl_info": {
+      "domain": "microsoft.com",
+      "hostname": "www.microsoft.com",
+      "ssl_valid": true,
+      "ssl_issuer": "Microsoft Corporation",
+      "ssl_expiry": "2027-01-17",
+      "ssl_days_left": 78,
+      "ssl_error": null
+    },
+    "risk_factors": [
+      "No overt signatures or blacklist entries detected, but general internet vigilance is advised."
+    ],
+    "positive_indicators": [
+      "Uses HTTPS protocol for encrypted communication.",
+      "AI/ML model found structural features typical of legitimate sites (94.7% confidence).",
+      "Valid SSL certificate issued by Microsoft Corporation."
+    ],
+    "timestamp": "2026-10-31 07:12:22",
+    "id": "SCAN-1793410942582"
+  },
+  {
+    "url": "https://google.com",
+    "risk_score": 29,
+    "classification": "Moderate Risk",
+    "ml_prediction": "Phishing / Malicious",
+    "ml_confidence": 64.61,
+    "features": {
+      "url_length": 18,
+      "domain_length": 10,
+      "path_length": 0,
+      "num_dots": 1,
+      "num_hyphens": 0,
+      "num_subdomains": 0,
+      "num_slash": 2,
+      "num_question": 0,
+      "num_equal": 0,
+      "num_at": 0,
+      "num_percent": 0,
+      "num_ampersand": 0,
+      "num_underscore": 0,
+      "num_digits": 0,
+      "digit_ratio": 0.0,
+      "url_entropy": 3.5724,
+      "domain_entropy": 2.6464,
+      "has_https": 1,
+      "https_in_domain": 0,
+      "is_ip": 0,
+      "is_shortened": 0,
+      "suspicious_keyword_count": 0,
+      "suspicious_in_domain": 0,
+      "special_char_ratio": 0.2222
+    },
+    "vt_stats": {
+      "available": false,
+      "status": "API key not configured",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 0,
+      "total": 0,
+      "permalink": ""
+    },
+    "gsb_status": {
+      "available": false,
+      "status": "API key not configured",
+      "is_threat": false,
+      "threat_types": []
+    },
+    "phishtank_status": {
+      "available": true,
+      "status": "Not listed as active phish",
+      "is_phish": false,
+      "verified": true,
+      "phish_id": 4973511
+    },
+    "ssl_info": {
+      "domain": "google.com",
+      "hostname": "google.com",
+      "ssl_valid": true,
+      "ssl_issuer": "Google Trust Services",
+      "ssl_expiry": "2026-12-30",
+      "ssl_days_left": 60,
+      "ssl_error": null
+    },
+    "risk_factors": [
+      "No overt signatures or blacklist entries detected, but general internet vigilance is advised."
+    ],
+    "positive_indicators": [
+      "Uses HTTPS protocol for encrypted communication.",
+      "Valid SSL certificate issued by Google Trust Services."
+    ],
+    "timestamp": "2026-10-31 07:12:20",
+    "id": "SCAN-1793410940606"
+  },
+  {
+    "url": "http://google-security-verify.invalid",
+    "risk_score": 49,
+    "classification": "Moderate Risk",
+    "ml_prediction": "Phishing / Malicious",
+    "ml_confidence": 94.68,
+    "features": {
+      "url_length": 37,
+      "domain_length": 30,
+      "path_length": 0,
+      "num_dots": 1,
+      "num_hyphens": 2,
+      "num_subdomains": 0,
+      "num_slash": 2,
+      "num_question": 0,
+      "num_equal": 0,
+      "num_at": 0,
+      "num_percent": 0,
+      "num_ampersand": 0,
+      "num_underscore": 0,
+      "num_digits": 0,
+      "digit_ratio": 0.0,
+      "url_entropy": 4.3038,
+      "domain_entropy": 4.0151,
+      "has_https": 0,
+      "https_in_domain": 0,
+      "is_ip": 0,
+      "is_shortened": 0,
+      "suspicious_keyword_count": 2,
+      "suspicious_in_domain": 2,
+      "special_char_ratio": 0.1622
+    },
+    "vt_stats": {
+      "available": false,
+      "status": "API key not configured",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 0,
+      "total": 0,
+      "permalink": ""
+    },
+    "gsb_status": {
+      "available": false,
+      "status": "API key not configured",
+      "is_threat": false,
+      "threat_types": []
+    },
+    "phishtank_status": {
+      "available": true,
+      "status": "Not listed as active phish",
+      "is_phish": false,
+      "verified": false,
+      "phish_id": null
+    },
+    "ssl_info": {
+      "domain": "",
+      "hostname": "",
+      "ssl_valid": false,
+      "ssl_issuer": null,
+      "ssl_expiry": null,
+      "ssl_days_left": null,
+      "ssl_error": "No hostname"
+    },
+    "risk_factors": [
+      "Detected 2 sensitive keywords (e.g., login, verify, banking).",
+      "Insecure HTTP protocol; transmissions lack cryptographic TLS encryption.",
+      "AI/ML model classified this URL as phishing with 94.7% confidence."
+    ],
+    "positive_indicators": [],
+    "timestamp": "2026-10-31 07:12:18",
+    "id": "SCAN-1793410938580"
+  },
+  {
+    "url": "http://paypal-login-example.invalid",
+    "risk_score": 50,
+    "classification": "High Risk",
+    "ml_prediction": "Phishing / Malicious",
+    "ml_confidence": 97.79,
+    "features": {
+      "url_length": 35,
+      "domain_length": 28,
+      "path_length": 0,
+      "num_dots": 1,
+      "num_hyphens": 2,
+      "num_subdomains": 0,
+      "num_slash": 2,
+      "num_question": 0,
+      "num_equal": 0,
+      "num_at": 0,
+      "num_percent": 0,
+      "num_ampersand": 0,
+      "num_underscore": 0,
+      "num_digits": 0,
+      "digit_ratio": 0.0,
+      "url_entropy": 4.022,
+      "domain_entropy": 3.682,
+      "has_https": 0,
+      "https_in_domain": 0,
+      "is_ip": 0,
+      "is_shortened": 0,
+      "suspicious_keyword_count": 2,
+      "suspicious_in_domain": 2,
+      "special_char_ratio": 0.1714
+    },
+    "vt_stats": {
+      "available": false,
+      "status": "API key not configured",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 0,
+      "total": 0,
+      "permalink": ""
+    },
+    "gsb_status": {
+      "available": false,
+      "status": "API key not configured",
+      "is_threat": false,
+      "threat_types": []
+    },
+    "phishtank_status": {
+      "available": true,
+      "status": "Not listed as active phish",
+      "is_phish": false,
+      "verified": false,
+      "phish_id": null
+    },
+    "ssl_info": {
+      "domain": "",
+      "hostname": "",
+      "ssl_valid": false,
+      "ssl_issuer": null,
+      "ssl_expiry": null,
+      "ssl_days_left": null,
+      "ssl_error": "No hostname"
+    },
+    "risk_factors": [
+      "Detected 2 sensitive keywords (e.g., login, verify, banking).",
+      "Insecure HTTP protocol; transmissions lack cryptographic TLS encryption.",
+      "AI/ML model classified this URL as phishing with 97.8% confidence."
+    ],
+    "positive_indicators": [],
+    "timestamp": "2026-10-31 07:12:17",
+    "id": "SCAN-1793410937148"
+  },
+  {
+    "url": "https://www.wikipedia.org",
+    "risk_score": 5,
+    "classification": "Low Risk",
+    "ml_prediction": "Legitimate",
+    "ml_confidence": 4.53,
+    "features": {
+      "url_length": 25,
+      "domain_length": 17,
+      "path_length": 0,
+      "num_dots": 2,
+      "num_hyphens": 0,
+      "num_subdomains": 1,
+      "num_slash": 2,
+      "num_question": 0,
+      "num_equal": 0,
+      "num_at": 0,
+      "num_percent": 0,
+      "num_ampersand": 0,
+      "num_underscore": 0,
+      "num_digits": 0,
+      "digit_ratio": 0.0,
+      "url_entropy": 3.8137,
+      "domain_entropy": 3.2195,
+      "has_https": 1,
+      "https_in_domain": 0,
+      "is_ip": 0,
+      "is_shortened": 0,
+      "suspicious_keyword_count": 0,
+      "suspicious_in_domain": 0,
+      "special_char_ratio": 0.2
+    },
+    "vt_stats": {
+      "available": false,
+      "status": "API key not configured",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 0,
+      "total": 0,
+      "permalink": ""
+    },
+    "gsb_status": {
+      "available": false,
+      "status": "API key not configured",
+      "is_threat": false,
+      "threat_types": []
+    },
+    "phishtank_status": {
+      "available": true,
+      "status": "Not listed as active phish",
+      "is_phish": false,
+      "verified": false,
+      "phish_id": 6505760
+    },
+    "ssl_info": {
+      "domain": "wikipedia.org",
+      "hostname": "www.wikipedia.org",
+      "ssl_valid": true,
+      "ssl_issuer": "Let's Encrypt",
+      "ssl_expiry": "2027-01-02",
+      "ssl_days_left": 63,
+      "ssl_error": null
+    },
+    "risk_factors": [
+      "No overt signatures or blacklist entries detected, but general internet vigilance is advised."
+    ],
+    "positive_indicators": [
+      "Uses HTTPS protocol for encrypted communication.",
+      "AI/ML model found structural features typical of legitimate sites (95.5% confidence).",
+      "Valid SSL certificate issued by Let's Encrypt."
+    ],
+    "timestamp": "2026-10-31 07:12:15",
+    "id": "SCAN-1793410935933"
+  },
+  {
+    "url": "https://www.github.com",
+    "risk_score": 5,
+    "classification": "Low Risk",
+    "ml_prediction": "Legitimate",
+    "ml_confidence": 6.79,
+    "features": {
+      "url_length": 22,
+      "domain_length": 14,
+      "path_length": 0,
+      "num_dots": 2,
+      "num_hyphens": 0,
+      "num_subdomains": 1,
+      "num_slash": 2,
+      "num_question": 0,
+      "num_equal": 0,
+      "num_at": 0,
+      "num_percent": 0,
+      "num_ampersand": 0,
+      "num_underscore": 0,
+      "num_digits": 0,
+      "digit_ratio": 0.0,
+      "url_entropy": 3.7544,
+      "domain_entropy": 3.3249,
+      "has_https": 1,
+      "https_in_domain": 0,
+      "is_ip": 0,
+      "is_shortened": 0,
+      "suspicious_keyword_count": 0,
+      "suspicious_in_domain": 0,
+      "special_char_ratio": 0.2273
+    },
+    "vt_stats": {
+      "available": false,
+      "status": "API key not configured",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 0,
+      "total": 0,
+      "permalink": ""
+    },
+    "gsb_status": {
+      "available": false,
+      "status": "API key not configured",
+      "is_threat": false,
+      "threat_types": []
+    },
+    "phishtank_status": {
+      "available": true,
+      "status": "Not listed as active phish",
+      "is_phish": false,
+      "verified": false,
+      "phish_id": null
+    },
+    "ssl_info": {
+      "domain": "github.com",
+      "hostname": "www.github.com",
+      "ssl_valid": true,
+      "ssl_issuer": "Sectigo Limited",
+      "ssl_expiry": "2027-01-27",
+      "ssl_days_left": 88,
+      "ssl_error": null
+    },
+    "risk_factors": [
+      "No overt signatures or blacklist entries detected, but general internet vigilance is advised."
+    ],
+    "positive_indicators": [
+      "Uses HTTPS protocol for encrypted communication.",
+      "AI/ML model found structural features typical of legitimate sites (93.2% confidence).",
+      "Valid SSL certificate issued by Sectigo Limited."
+    ],
+    "timestamp": "2026-10-31 07:12:13",
+    "id": "SCAN-1793410933922"
+  },
+  {
+    "url": "https://www.google.com",
+    "risk_score": 5,
+    "classification": "Low Risk",
+    "ml_prediction": "Legitimate",
+    "ml_confidence": 4.96,
+    "features": {
+      "url_length": 22,
+      "domain_length": 14,
+      "path_length": 0,
+      "num_dots": 2,
+      "num_hyphens": 0,
+      "num_subdomains": 1,
+      "num_slash": 2,
+      "num_question": 0,
+      "num_equal": 0,
+      "num_at": 0,
+      "num_percent": 0,
+      "num_ampersand": 0,
+      "num_underscore": 0,
+      "num_digits": 0,
+      "digit_ratio": 0.0,
+      "url_entropy": 3.6635,
+      "domain_entropy": 2.8424,
+      "has_https": 1,
+      "https_in_domain": 0,
+      "is_ip": 0,
+      "is_shortened": 0,
+      "suspicious_keyword_count": 0,
+      "suspicious_in_domain": 0,
+      "special_char_ratio": 0.2273
+    },
+    "vt_stats": {
+      "available": false,
+      "status": "API key not configured",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 0,
+      "total": 0,
+      "permalink": ""
+    },
+    "gsb_status": {
+      "available": false,
+      "status": "API key not configured",
+      "is_threat": false,
+      "threat_types": []
+    },
+    "phishtank_status": {
+      "available": true,
+      "status": "Not listed as active phish",
+      "is_phish": false,
+      "verified": true,
+      "phish_id": 1983370
+    },
+    "ssl_info": {
+      "domain": "google.com",
+      "hostname": "www.google.com",
+      "ssl_valid": true,
+      "ssl_issuer": "Google Trust Services",
+      "ssl_expiry": "2026-12-30",
+      "ssl_days_left": 60,
+      "ssl_error": null
+    },
+    "risk_factors": [
+      "No overt signatures or blacklist entries detected, but general internet vigilance is advised."
+    ],
+    "positive_indicators": [
+      "Uses HTTPS protocol for encrypted communication.",
+      "AI/ML model found structural features typical of legitimate sites (95.0% confidence).",
+      "Valid SSL certificate issued by Google Trust Services."
+    ],
+    "timestamp": "2026-10-31 07:12:12",
+    "id": "SCAN-1793410932296"
+  },
+  {
+    "url": "https://example.com:8080/login",
+    "risk_score": 45,
+    "classification": "Moderate Risk",
+    "ml_prediction": "Phishing / Malicious",
+    "ml_confidence": 95.72,
+    "features": {
+      "url_length": 30,
+      "domain_length": 11,
+      "path_length": 6,
+      "num_dots": 1,
+      "num_hyphens": 0,
+      "num_subdomains": 0,
+      "num_slash": 3,
+      "num_question": 0,
+      "num_equal": 0,
+      "num_at": 0,
+      "num_percent": 0,
+      "num_ampersand": 0,
+      "num_underscore": 0,
+      "num_digits": 4,
+      "digit_ratio": 0.1333,
+      "url_entropy": 4.1484,
+      "domain_entropy": 3.0958,
+      "has_https": 1,
+      "https_in_domain": 0,
+      "is_ip": 0,
+      "is_shortened": 0,
+      "suspicious_keyword_count": 1,
+      "suspicious_in_domain": 0,
+      "special_char_ratio": 0.2
+    },
+    "vt_stats": {
+      "available": false,
+      "status": "API key not configured",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 0,
+      "total": 0,
+      "permalink": ""
+    },
+    "gsb_status": {
+      "available": false,
+      "status": "API key not configured",
+      "is_threat": false,
+      "threat_types": []
+    },
+    "phishtank_status": {
+      "available": true,
+      "status": "Not listed as active phish",
+      "is_phish": false,
+      "verified": false,
+      "phish_id": null
+    },
+    "ssl_info": {
+      "domain": "example.com",
+      "hostname": "example.com",
+      "ssl_valid": false,
+      "ssl_issuer": null,
+      "ssl_expiry": null,
+      "ssl_days_left": null,
+      "ssl_error": "Certificate verification failed: unable to get local issuer certificate"
+    },
+    "risk_factors": [
+      "Detected 1 sensitive keywords (e.g., login, verify, banking).",
+      "AI/ML model classified this URL as phishing with 95.7% confidence.",
+      "SSL issue: Certificate verification failed: unable to get local issuer certificate"
+    ],
+    "positive_indicators": [
+      "Uses HTTPS protocol for encrypted communication."
+    ],
+    "timestamp": "2026-10-31 07:11:49",
+    "id": "SCAN-1793410909564"
+  },
+  {
+    "url": "https://example.com:8080/login",
+    "risk_score": 45,
+    "classification": "Moderate Risk",
+    "ml_prediction": "Phishing / Malicious",
+    "ml_confidence": 95.72,
+    "features": {
+      "url_length": 30,
+      "domain_length": 11,
+      "path_length": 6,
+      "num_dots": 1,
+      "num_hyphens": 0,
+      "num_subdomains": 0,
+      "num_slash": 3,
+      "num_question": 0,
+      "num_equal": 0,
+      "num_at": 0,
+      "num_percent": 0,
+      "num_ampersand": 0,
+      "num_underscore": 0,
+      "num_digits": 4,
+      "digit_ratio": 0.1333,
+      "url_entropy": 4.1484,
+      "domain_entropy": 3.0958,
+      "has_https": 1,
+      "https_in_domain": 0,
+      "is_ip": 0,
+      "is_shortened": 0,
+      "suspicious_keyword_count": 1,
+      "suspicious_in_domain": 0,
+      "special_char_ratio": 0.2
+    },
+    "vt_stats": {
+      "available": false,
+      "status": "API key not configured",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 0,
+      "total": 0,
+      "permalink": ""
+    },
+    "gsb_status": {
+      "available": false,
+      "status": "API key not configured",
+      "is_threat": false,
+      "threat_types": []
+    },
+    "phishtank_status": {
+      "available": true,
+      "status": "Not listed as active phish",
+      "is_phish": false,
+      "verified": false,
+      "phish_id": null
+    },
+    "ssl_info": {
+      "domain": "example.com",
+      "hostname": "example.com",
+      "ssl_valid": false,
+      "ssl_issuer": null,
+      "ssl_expiry": null,
+      "ssl_days_left": null,
+      "ssl_error": "Certificate verification failed: unable to get local issuer certificate"
+    },
+    "risk_factors": [
+      "Detected 1 sensitive keywords (e.g., login, verify, banking).",
+      "AI/ML model classified this URL as phishing with 95.7% confidence.",
+      "SSL issue: Certificate verification failed: unable to get local issuer certificate"
+    ],
+    "positive_indicators": [
+      "Uses HTTPS protocol for encrypted communication."
+    ],
+    "timestamp": "2026-10-31 07:07:32",
+    "id": "SCAN-1793410652944"
+  },
+  {
+    "url": "http://paypal-login-example.invalid",
+    "risk_score": 51,
+    "classification": "High Risk",
+    "ml_prediction": "Phishing / Malicious",
+    "ml_confidence": 99.0,
+    "features": {
+      "url_length": 35,
+      "domain_length": 28,
+      "path_length": 0,
+      "num_dots": 1,
+      "num_hyphens": 2,
+      "num_subdomains": 0,
+      "num_slash": 2,
+      "num_question": 0,
+      "num_equal": 0,
+      "num_at": 0,
+      "num_percent": 0,
+      "num_ampersand": 0,
+      "num_underscore": 0,
+      "num_digits": 0,
+      "digit_ratio": 0.0,
+      "url_entropy": 4.022,
+      "domain_entropy": 3.682,
+      "has_https": 0,
+      "https_in_domain": 0,
+      "is_ip": 0,
+      "is_shortened": 0,
+      "suspicious_keyword_count": 2,
+      "suspicious_in_domain": 2,
+      "special_char_ratio": 0.1714
+    },
+    "vt_stats": {
+      "available": false,
+      "status": "API key not configured",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 0,
+      "total": 0,
+      "permalink": ""
+    },
+    "gsb_status": {
+      "available": false,
+      "status": "API key not configured",
+      "is_threat": false,
+      "threat_types": []
+    },
+    "phishtank_status": {
+      "available": true,
+      "status": "Not listed as active phish",
+      "is_phish": false,
+      "verified": false,
+      "phish_id": null
+    },
+    "ssl_info": {
+      "domain": "",
+      "hostname": "",
+      "ssl_valid": false,
+      "ssl_issuer": null,
+      "ssl_expiry": null,
+      "ssl_days_left": null,
+      "ssl_error": "No hostname"
+    },
+    "risk_factors": [
+      "Detected 2 sensitive keywords (e.g., login, verify, banking).",
+      "Insecure HTTP protocol; transmissions lack cryptographic TLS encryption.",
+      "AI/ML model classified this URL as phishing with 99.0% confidence."
+    ],
+    "positive_indicators": [],
+    "timestamp": "2026-10-30 21:39:06",
+    "id": "SCAN-1793376546193"
+  },
+  {
+    "url": "https://www.google.com",
+    "risk_score": 5,
+    "classification": "Low Risk",
+    "ml_prediction": "Legitimate",
+    "ml_confidence": 0.75,
+    "features": {
+      "url_length": 22,
+      "domain_length": 14,
+      "path_length": 0,
+      "num_dots": 2,
+      "num_hyphens": 0,
+      "num_subdomains": 1,
+      "num_slash": 2,
+      "num_question": 0,
+      "num_equal": 0,
+      "num_at": 0,
+      "num_percent": 0,
+      "num_ampersand": 0,
+      "num_underscore": 0,
+      "num_digits": 0,
+      "digit_ratio": 0.0,
+      "url_entropy": 3.6635,
+      "domain_entropy": 2.8424,
+      "has_https": 1,
+      "https_in_domain": 0,
+      "is_ip": 0,
+      "is_shortened": 0,
+      "suspicious_keyword_count": 0,
+      "suspicious_in_domain": 0,
+      "special_char_ratio": 0.2273
+    },
+    "vt_stats": {
+      "available": false,
+      "status": "API key not configured",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 0,
+      "total": 0,
+      "permalink": ""
+    },
+    "gsb_status": {
+      "available": false,
+      "status": "API key not configured",
+      "is_threat": false,
+      "threat_types": []
+    },
+    "phishtank_status": {
+      "available": true,
+      "status": "Not listed as active phish",
+      "is_phish": false,
+      "verified": true,
+      "phish_id": 1983370
+    },
+    "ssl_info": {
+      "domain": "google.com",
+      "hostname": "www.google.com",
+      "ssl_valid": true,
+      "ssl_issuer": "Google Trust Services",
+      "ssl_expiry": "2026-12-30",
+      "ssl_days_left": 61,
+      "ssl_error": null
+    },
+    "risk_factors": [
+      "No overt signatures or blacklist entries detected, but general internet vigilance is advised."
+    ],
+    "positive_indicators": [
+      "Uses HTTPS protocol for encrypted communication.",
+      "AI/ML model found structural features typical of legitimate sites (99.3% confidence).",
+      "Valid SSL certificate issued by Google Trust Services."
+    ],
+    "timestamp": "2026-10-30 20:01:54",
+    "id": "SCAN-1793370714483"
+  }
+]
