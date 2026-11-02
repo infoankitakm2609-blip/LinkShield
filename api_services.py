@@ -19,40 +19,42 @@ DEFAULT_TIMEOUT = 5  # 5 seconds to avoid freezing
 class APIServices:
     """External threat intelligence and domain security lookup services."""
 
+    
     @staticmethod
     def check_virustotal(url: str) -> Dict[str, Any]:
-        """
-        Queries VirusTotal API v3 for URL reputation.
-        Returns detection statistics and engine categories.
-        """
+        """Check an existing VirusTotal report or submit a new URL."""
+
         if not VIRUSTOTAL_API_KEY:
             return {
                 "available": False,
-                "status": "API key not configured",
-                "malicious": 0,
-                "suspicious": 0,
-                "harmless": 0,
-                "undetected": 0,
-                "total": 0,
-                "permalink": ""
+                "status": "API key not configured"
             }
+
+        import base64
 
         headers = {
             "x-apikey": VIRUSTOTAL_API_KEY,
             "Accept": "application/json"
         }
-        
-        # VirusTotal v3 requires base64 URL identifier without padding
-        import base64
-        url_id = base64.urlsafe_b64encode(url.encode()).decode().strip("=")
+
+        url_id = base64.urlsafe_b64encode(
+            url.encode()
+        ).decode().rstrip("=")
+
         endpoint = f"https://www.virustotal.com/api/v3/urls/{url_id}"
 
         try:
-            response = requests.get(endpoint, headers=headers, timeout=DEFAULT_TIMEOUT)
+            response = requests.get(
+                endpoint,
+                headers=headers,
+                timeout=15
+            )
+
             if response.status_code == 200:
                 data = response.json()
                 attributes = data.get("data", {}).get("attributes", {})
                 stats = attributes.get("last_analysis_stats", {})
+
                 return {
                     "available": True,
                     "status": "Success",
@@ -63,25 +65,54 @@ class APIServices:
                     "total": sum(stats.values()),
                     "permalink": f"https://www.virustotal.com/gui/url/{url_id}"
                 }
+
             elif response.status_code == 404:
+                submit = requests.post(
+                    "https://www.virustotal.com/api/v3/urls",
+                    headers=headers,
+                    data={"url": url},
+                    timeout=15
+                )
+
+                if submit.status_code == 200:
+                    result = submit.json()
+                    analysis_id = result.get("data", {}).get("id")
+
+                    return {
+                        "available": True,
+                        "status": "Analysis pending",
+                        "analysis_id": analysis_id,
+                        "malicious": 0,
+                        "suspicious": 0,
+                        "harmless": 0,
+                        "undetected": 0,
+                        "total": 0,
+                        "permalink": f"https://www.virustotal.com/gui/url/{url_id}"
+                    }
+
                 return {
-                    "available": True,
-                    "status": "URL not seen in VirusTotal database yet",
-                    "malicious": 0,
-                    "suspicious": 0,
-                    "harmless": 0,
-                    "undetected": 0,
-                    "total": 0,
-                    "permalink": ""
+                    "available": False,
+                    "status": f"Submission failed: HTTP {submit.status_code}"
                 }
+
             elif response.status_code == 429:
-                return {"available": False, "status": "Rate limit exceeded (429)", "malicious": 0}
+                return {
+                    "available": False,
+                    "status": "Rate limit exceeded"
+                }
+
             else:
-                return {"available": False, "status": f"HTTP {response.status_code}", "malicious": 0}
-        except requests.exceptions.Timeout:
-            return {"available": False, "status": "Request timed out", "malicious": 0}
-        except Exception as e:
-            return {"available": False, "status": f"Connection error: {str(e)}", "malicious": 0}
+                return {
+                    "available": False,
+                    "status": f"HTTP {response.status_code}"
+                }
+
+        except requests.exceptions.RequestException as e:
+            return {
+                "available": False,
+                "status": f"Connection error: {str(e)}"
+            }
+
 
     @staticmethod
     def check_google_safe_browsing(url: str) -> Dict[str, Any]:
