@@ -1,0 +1,129 @@
+{
+  "best_model": "Random Forest (Tuned & Regularized)",
+  "feature_columns": [
+    "url_length",
+    "domain_length",
+    "path_length",
+    "num_dots",
+    "num_hyphens",
+    "num_subdomains",
+    "num_slash",
+    "num_question",
+    "num_equal",
+    "num_at",
+    "num_percent",
+    "num_ampersand",
+    "num_underscore",
+    "num_digits",
+    "digit_ratio",
+    "url_entropy",
+    "domain_entropy",
+    "has_https",
+    "https_in_domain",
+    "is_ip",
+    "is_shortened",
+    "suspicious_keyword_count",
+    "suspicious_in_domain",
+    "special_char_ratio"
+  ],
+  "total_dataset_size": 3340,
+  "exact_url_overlap_train_test": 0,
+  "split_evaluation": {
+    "Random Forest": {
+      "train_accuracy": 0.9895,
+      "validation_accuracy": 0.976,
+      "test_accuracy": 0.9775,
+      "test_precision": 0.9726,
+      "test_recall": 0.9898,
+      "test_f1_score": 0.9811,
+      "overfitting_delta": 0.012,
+      "confusion_matrix": [
+        [
+          263,
+          11
+        ],
+        [
+          4,
+          390
+        ]
+      ]
+    },
+    "XGBoost": {
+      "train_accuracy": 0.998,
+      "validation_accuracy": 0.9746,
+      "test_accuracy": 0.982,
+      "test_precision": 0.9872,
+      "test_recall": 0.9822,
+      "test_f1_score": 0.9847,
+      "overfitting_delta": 0.016,
+      "confusion_matrix": [
+        [
+          269,
+          5
+        ],
+        [
+          7,
+          387
+        ]
+      ]
+    },
+    "Logistic Regression": {
+      "train_accuracy": 0.9651,
+      "validation_accuracy": 0.9626,
+      "test_accuracy": 0.9671,
+      "test_precision": 0.9794,
+      "test_recall": 0.9645,
+      "test_f1_score": 0.9719,
+      "overfitting_delta": -0.002,
+      "confusion_matrix": [
+        [
+          266,
+          8
+        ],
+        [
+          14,
+          380
+        ]
+      ]
+    }
+  },
+  "cv_5fold_comparison": {
+    "Random Forest": {
+      "accuracy": 0.9793,
+      "precision": 0.977,
+      "recall": 0.9883,
+      "f1_score": 0.9826,
+      "cv_std_acc": 0.0049
+    },
+    "XGBoost": {
+      "accuracy": 0.9796,
+      "precision": 0.9833,
+      "recall": 0.9823,
+      "f1_score": 0.9827,
+      "cv_std_acc": 0.0045
+    },
+    "Logistic Regression": {
+      "accuracy": 0.9641,
+      "precision": 0.9759,
+      "recall": 0.963,
+      "f1_score": 0.9694,
+      "cv_std_acc": 0.0031
+    }
+  },
+  "unseen_external_benchmark": {
+    "accuracy": 0.675,
+    "precision": 0.6061,
+    "recall": 1.0,
+    "f1_score": 0.7547,
+    "confusion_matrix": [
+      [
+        7,
+        13
+      ],
+      [
+        0,
+        20
+      ]
+    ]
+  }
+}
